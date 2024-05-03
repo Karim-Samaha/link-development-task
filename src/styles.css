@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css?family=open-sans&display=swap');
+
+:root {
+  --font-color: #181e4b;
+  --link-hover: #f215b6;
+  --link-transition: all 0.3s ease-in-out;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.Dropdown-arrow {
+  display: none;
+}
+.Dropdown-control {
+  color: var(--font-color);
+}
