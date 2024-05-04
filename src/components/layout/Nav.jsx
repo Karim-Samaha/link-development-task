@@ -60,7 +60,6 @@ const Nav = () => {
           />
           {/*  */}
         </ul>
-        <img src={AnimatedImg} alt="Img" className={styles.AnimatedImg} />
       </nav>
     </Container>
   );

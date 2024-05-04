@@ -1,15 +1,27 @@
-
-@import url('https://fonts.googleapis.com/css?family=open-sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=open-sans&display=swap");
 
 :root {
   --font-color: #181e4b;
   --link-hover: #f215b6;
+  --theme-color: #ec71b5;
   --link-transition: all 0.3s ease-in-out;
+}
+html {
+  font-size: 16px;
+
+}
+@media (max-width: 1100px) {
+  html {
+    font-size: 12px;
+  }
 }
 body {
   overflow-x: hidden;
   position: relative;
 }
+/* .contain-intrinsic-block-size {
+  margin: 0;
+} */
 * {
   padding: 0;
   margin: 0;
