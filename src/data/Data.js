@@ -38,7 +38,7 @@ export const HeroData = [
     {
         id: "3",
         title: "OUTSOURCE",
-        subTitle: "Global IT Experts",
+        subTitle: "Global IT <br /> Experts",
         body: "On-shore, offshore, nearshore and hybrid models for dedicated development, product building and staff augmentation.",
         image: HeroImage1,
         themeColor: "#FF7C16",

@@ -1,10 +1,10 @@
 import Container from "../shared/Container/Container";
 import Logo from "../shared/Logo";
-import FacebookLogo from "../../images/Social-fc.svg";
-import InstaLogo from "../../images/Social-ins.svg";
-import TwitterLogo from "../../images/Social-tw.svg";
-import GooglePlayLogo from "../../images/Google Play.svg";
-import AppStoreLogo from "../../images/Play Store.svg";
+import FacebookLogo from "../../images/Icons/Social-fc.svg";
+import InstaLogo from "../../images/Icons/Social-ins.svg";
+import TwitterLogo from "../../images/Icons/Social-tw.svg";
+import GooglePlayLogo from "../../images/Icons/Google Play.svg";
+import AppStoreLogo from "../../images/Icons/Play Store.svg";
 import styles from "./layout.module.css";
 
 import { Link } from "react-router-dom";
