@@ -13,6 +13,12 @@
 }
 @font-face {
   font-family: 'Poppins';
+  src: url('./fonts/Poppins-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
   src: url('./fonts/Poppins-Light.ttf');
   font-weight: 300;
   font-style: normal;
@@ -47,4 +53,8 @@ body {
 }
 .Dropdown-control {
   color: var(--font-color);
+}
+
+#bullet-wrapper {
+  display: flex;
 }

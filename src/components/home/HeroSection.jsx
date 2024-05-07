@@ -1,3 +1,4 @@
+
 import Container from '../shared/Container/Container';
 import styles from './home.module.css';
 import {useState} from 'react';
@@ -5,6 +6,7 @@ import {HeroData} from '../../data/Data';
 import BulletSelection from '../shared/BulletSelection';
 import PrymaryButton from '../shared/Button/PrimaryButton';
 import PlayDemoIcon from '../../images/Icons/play.svg';
+
 const HeroSection = () => {
   const [heroIndex, setHeroIndex] = useState(0);
   const theme = {color: HeroData[heroIndex].themeColor};
@@ -12,7 +14,7 @@ const HeroSection = () => {
     setHeroIndex(i);
   };
   const isActive = (i) => {
-    return i === heroIndex && styles.active;
+    return i === heroIndex ? styles.active : "";
   };
   return (
     <Container className={styles.heroSection}>
@@ -27,7 +29,7 @@ const HeroSection = () => {
           <PrymaryButton text={'Find out more'} />
           <button>
             <img src={PlayDemoIcon} alt="Demo" />
-            <span> Play Demo</span>
+            <span>Play Demo</span>
           </button>
         </div>
         <BulletSelection
@@ -45,3 +47,4 @@ const HeroSection = () => {
   );
 };
 export default HeroSection;
+

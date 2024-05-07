@@ -5,8 +5,8 @@ import ShareIcon from '../../../images/Icons/ic_share_24px.svg';
 
 export const NewsCard = ({data}) => {
   return (
-    <div className={styles.newsCard}>
-      <img className={styles.newsImg} src={data?.image} alt={data.title} />
+    <div className={styles.newsCard} data-testid={`news-card`}>
+      <img className={styles.newsImg} src={data?.image} alt={data.title} loading="lazy" />
       <h5>{data.title}</h5>
       <span>
         <img src={DateIcon} alt="Date Icon" />

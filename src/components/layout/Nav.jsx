@@ -1,10 +1,10 @@
 import Container from "../shared/Container/Container";
 import styles from "./layout.module.css";
-import AnimatedImg from "../../images/Decore.png";
 import { Link } from "react-router-dom";
 import Logo from "../shared/Logo";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
+import ArrowIcon from '../../images/Icons/arrow-down.svg';
 
 const Links = [
   {
@@ -57,6 +57,8 @@ const Nav = () => {
             onChange={() => null}
             placeholder="En"
             className={styles.dropdown}
+            arrowClosed={<span><img src={ArrowIcon} alt="Drop Down" /></span>}
+            arrowOpen={<span><img src={ArrowIcon} alt="Drop Down" /></span>}
           />
           {/*  */}
         </ul>

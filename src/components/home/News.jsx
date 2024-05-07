@@ -10,7 +10,10 @@ export const NewsSection = () => {
   const [currentNews, setCurrentNews] = useState(NewsButtons[0]);
   const renderNewsSelectionButtons = () => {
     return NewsButtons.map((item) => (
-      <button className={item === currentNews && styles.newsActive} key={item} onClick={() => setCurrentNews(item)}>
+      <button
+        className={item === currentNews ? styles.newsActive : null}
+        key={item}
+        onClick={() => setCurrentNews(item)}>
         {item}
       </button>
     ));

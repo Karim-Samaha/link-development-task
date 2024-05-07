@@ -1,4 +1,3 @@
-import Container from '../shared/Container/Container';
 import styles from './home.module.css';
 import ThingsWeDoImg from '../../images/Things _We Do.svg';
 import ServiceImage1 from '../../images/Services/CarftyMind.png';
@@ -89,8 +88,8 @@ const Services = () => {
               We Deliver <br /> Digital Productivity
             </h2>
             <p>
-              We craft technology solutions that digitally bond and transform the productivity of our customers and
-              their citizens, workers, consumers and partners.
+              We craft technology solutions that digitally <br/> bond and transform the productivity of <br/> our customers and
+              their citizens, workers, <br/> consumers and partners.
             </p>
           </div>
         </div>

@@ -12,6 +12,8 @@ const Home = () => {
     <>
       <Helmet>
         <title>Link Development</title>
+        <meta name="description" content="Link Development Workshop" />
+        <meta name="keywords" content="Link Development, Workshop" />
         <link rel="icon" type="image/x-icon" href={LogoImage} />
       </Helmet>
       <Layout>

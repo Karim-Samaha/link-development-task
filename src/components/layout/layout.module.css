@@ -33,8 +33,6 @@
   .navLinks li:nth-child(4) {
     margin-inline-end: 7%;
     margin-inline-start: 5%;
-
-    font-weight: 500;
   }
   .navLinks li:nth-child(6) {
     border: 1px solid #212832;
@@ -58,6 +56,14 @@
   border: 1px solid #ffffff00;
   width: 60px;
   background-color: #ffffff00;
+  display: flex;
+  align-items: center;
+}
+.dropdown img[alt='Drop Down'] {
+  width: 16px;
+  height: 16px;
+  margin-top: 6px;
+  margin-inline-start: 6px;
 }
 
 .footer {
@@ -99,7 +105,9 @@
   font-size: 0.8rem;
   line-height: 1rem;
   margin-top: 15px;
-  width: 80%;
+  width: 70%;
+  font-weight: 500;
+  text-align: center;
 }
 
 .footer .footerSection:nth-child(2) table {
@@ -110,15 +118,21 @@
   height: 100px;
   font-size: 1.3rem;
   color: #080809;
+  font-weight: bold;
+  height: 62px;
+  width: 200px;
+  text-align: center;
 }
 .footer .footerSection:nth-child(2) table td {
-  height: 50px;
+  height: 40px;
+  text-align: center;
 }
 .footer .footerSection:nth-child(2) table a {
   font-size: 1.12rem;
   color: #5e6282;
   text-decoration: none;
   transition: var(--link-transition);
+  font-weight: 500;
 }
 .footer .footerSection:nth-child(2) table a:hover {
   color: var(--link-hover);
@@ -155,4 +169,11 @@
   font-size: 0.87rem;
   font-weight: 500;
   padding: 30px 0 20px 0;
+}
+@media (min-width: 1100px) {
+  .footer .footerSection:nth-child(1) p,
+  .footer .footerSection:nth-child(2) table td,
+  .footer .footerSection:nth-child(2) table th {
+    text-align: left;
+  }
 }
