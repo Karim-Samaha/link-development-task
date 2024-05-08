@@ -288,8 +288,8 @@
     right: -110px;
   }
   .servcesImages > div img {
-    width: 180px;
-    height: 200px;
+    width: 170px;
+    height: 190px;
   }
   .servcesContainer {
     min-height: 600px;
@@ -331,8 +331,8 @@
   font-size: 3.4rem;
 }
 .contentContainer p {
-  font-size: 1.7rem;
-  line-height: 2.3rem;
+  font-size: 1.6rem;
+  line-height: 2.25rem;
   color: #fff;
 }
 @media (min-width: 1300px) {
@@ -352,7 +352,6 @@
     padding-inline-end: 30px;
   }
   .contentContainer p {
-    width: 649;
     min-width: 500px;
     margin-inline-start: auto;
   }
